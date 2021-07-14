@@ -11,11 +11,13 @@ Using images from the summary DataFrame and multiple-line chart, describe the di
 
 ![](analysis/pyber_summary_df.png)
 
-Observing the summary Dataframe we notice that the number of drivers in Urban cities far exceeds the number of total rides, which translates to significant competition which is a driving force for the prices. On the contrary there are less drivers than rides in both urban and suburban areas. We see that drivers in Rural cities make a jaw dropping $55.49 per ride while in Urban cities the amount drops to $16.57 per ride. Average fare per driver in Rural cities is 36% higher than average fare per ride. A more even distribution is observed in Suburban cities where average fare per driver is 20% higher than average fare per ride. In urban cities average fare per driver is 30% lower 
+Observing the summary Dataframe we notice that the number of drivers in Urban cities far exceeds the number of total rides, which translates to significant competition which is a driving force for the prices. On the contrary there are less drivers than rides in both urban and suburban areas. We see that drivers in Rural cities make a jaw dropping average $55.49 per ride while in Urban cities the amount drops to $16.57 per ride. Average fare per driver in Rural cities is 36% higher than average fare per ride. A more even distribution is observed in Suburban cities where average fare per driver is 20% higher than average fare per ride. In urban cities average fare per driver is 30% lower than fare per ride. The cost of a ride in rural cities is almost 50% more expensive than in urban ci
 
 ![](analysis/Challenge_fare_summary.png)
 
+![](analysis/diff.png)
 
 Pyber should consider dropping rates for rural and suburbav areas. Especially in rurral ares the margin between average fare per ride and average fare per driver suggests there is plenty of room for better pricing. Dropping the rate could result in an increase of rides which may counter dropping the rates. 
 
 pyber needs to drive prices down in rural cities
+employeeing more drivers in rural areas 
