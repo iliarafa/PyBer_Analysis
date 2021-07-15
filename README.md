@@ -15,12 +15,19 @@ Observing the summary Dataframe we notice that the number of drivers in Urban ci
 - In urban cities average fare per driver is 30% lower than fare per ride. 
 - The cost of a ride in rural cities is almost 50% higher than in urban cities. 
 
+
 ![](analysis/Challenge_fare_summary.png)
 
 In terms of revenue Urban cities account for 63% of the total as Suburban and Rural areas follow with 30% and 7% respectively. 
 
-Pyber is heavily invested in urban cities where there is an abundance of drivers. One move to consider is employeeing more drivers in rural areas . More drivers would mean more competition. Demand could also be affected by cheaper rates so there is a good opportunity to achieve a new balance that will secure cheaper fares for passengers and thus more traffic. The margin between average fare per ride and average fare per driver suggests there is, indeed, room for better pricing. 
+## Recommendations 
 
-The same tactic could be applied in a smaller degree in suburban cities to bring fare per ride closer to the levels observed in urban cities.  Especially in rurral ares the margin between average fare per ride and average fare per driver suggests there is plenty of room for better pricing. 
+Pyber is heavily invested in urban cities where there is an abundance of drivers. One move to consider is employeeing more drivers in rural areas. More drivers would mean more competition. Demand could also be affected by cheaper rates so there is a good opportunity to achieve a new balance that will secure cheaper fares for passengers and thus more traffic. The margin between average fare per ride and average fare per driver suggests there is, indeed, room for better pricing. 
+
+The same tactic could be applied in a smaller degree in suburban cities to bring fare per ride closer to the levels observed in urban cities. An increase of about 10% on Suburban drivers would probably have the desired effect in pricing while still maintaining fares per driver of similar values. 
 
 One could also consider offering better pricing in Urban cities when traffic increases. As we see in the line chart there is a repeated peak and drop pattern from the end of February and through the end of March. Pyber can afford to make offers or discounts in rates that would flatten the revenue line but would still keep it at a very high level, even more so when compared to other types of city. 
+
+The chart line also indicates seasonal variations. Revenue moves in low levels in the beginning of the year to pick up before the beginning of spring. Rural cities display in January the same *peak and drop pattern* that Urban cities show in March. This flow of increasing and decreasind denand is what has to be addressed and this could be achieved by a dynamic system of pricing that adjusts itself at the right time. 
+
+
