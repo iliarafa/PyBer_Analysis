@@ -2,7 +2,7 @@
 
 ## Overview
 
-This analysis aims to examine ride sharing specifics by city type and provide a summary of the differences and how these differences can be used to improve the service
+The purpose of this project is to help improve access to ride-sharing services and determine affordability for underserved neighborhoods.To achieve this we will examine ride sharing specifics by creating visualizations of rideshare data for PyBer and compare revenue shares and fares by city type.  
 
 ## Results
 
@@ -10,15 +10,24 @@ Observing the summary Dataframe we notice that the number of drivers in Urban ci
 
 ![](analysis/Py_summary_df.png)
 
-Average fare per driver in Rural cities is 36% higher than average fare per ride. A more even distribution is observed in Suburban cities where average fare per driver is 20% higher than average fare per ride. In urban cities average fare per driver is 30% lower than fare per ride. The cost of a ride in rural cities is almost 50% more expensive than in urban cities. 
+- Average fare per driver in Rural cities is 36% higher than average fare per ride. 
+- A more even distribution is observed in Suburban cities where average fare per driver is 20% higher than average fare per ride. 
+- In urban cities average fare per driver is 30% lower than fare per ride. 
+- The cost of a ride in rural cities is almost 50% higher than in urban cities. 
+
 
 ![](analysis/Challenge_fare_summary.png)
 
 In terms of revenue Urban cities account for 63% of the total as Suburban and Rural areas follow with 30% and 7% respectively. 
 
-Pyber should consider employeeing more drivers in rural areas . dropping rates for rural and suburbav areas. Especially in rurral ares the margin between average fare per ride and average fare per driver suggests there is plenty of room for better pricing. Dropping the rate could result in an increase of rides which may counter dropping the rates. 
+## Recommendations 
 
-pyber needs to drive prices down in rural cities
-employeeing more drivers in rural areas 
-heavily invested in urban cities
+Pyber is heavily invested in urban cities where there is an abundance of drivers. One move to consider is employeeing more drivers in rural areas. More drivers would mean more competition. Demand could also be affected by cheaper rates so there is a good opportunity to achieve a new balance that will secure cheaper fares for passengers and thus more traffic. The margin between average fare per ride and average fare per driver suggests there is, indeed, room for better pricing. 
+
+The same tactic could be applied in a smaller degree in suburban cities to bring fare per ride closer to the levels observed in urban cities. An increase of about 10% on Suburban drivers would probably have the desired effect in pricing while still maintaining fares per driver of similar values. 
+
+One could also consider offering better pricing in Urban cities when traffic increases. As we see in the line chart there is a repeated peak and drop pattern from the end of February and through the end of March. Pyber can afford to make offers or discounts in rates that would flatten the revenue line but would still keep it at a very high level, even more so when compared to other types of city. 
+
+The chart line also indicates seasonal variations. Revenue moves in low levels in the beginning of the year to pick up before the beginning of spring. Rural cities display in January the same *peak and drop pattern* that Urban cities show in March. This flow of increasing and decreasind denand is what has to be addressed and this could be achieved by a dynamic system of pricing that adjusts itself at the right time. 
+
 
